@@ -26,6 +26,6 @@ jobs:
             npm install || exit 1
             npm run build || exit 1
             sudo pkill node || true
-            sudo nohup npm run start & exit
+            sudo nohup npm run start &
             exit
           "
